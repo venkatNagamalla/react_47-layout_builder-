@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.layout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.layout-inner-container {
+  width: 90%;
+  border: 1px solid #000;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-inner-container {
+    width: 80%;
+  }
+}
